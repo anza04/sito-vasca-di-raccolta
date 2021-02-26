@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.main{
+    background: #2F0459;
+    height: 99vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.titoli {
+    width: 100vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+
+.back{
+    background: #2F0459;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    opacity: 1;
+}
+
+.opaco{
+    background: #000000;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.image{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 0;
+    
+}
+
+.lettere{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 200px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.descrizione{
+    text-align: center;
+    color: #fff;
+    font-size: 200px;
+    font-weight: bold;
+    opacity: 1;
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    top:150%;
+    transform: translate(-50%,-50%);
+    z-index: 4;
+    
+}
+
+.div2{
+    height: 750px;
+    background: #ff3503;
+    overflow: hidden;
+}
+.altro1{
+    height: 750px;
+    background: #00e1ff;
+   overflow: hidden;
+}
+.altro2{
+    height: 750px;
+    background: #15ff00;
+    overflow: hidden;
+}
